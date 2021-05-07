@@ -1,0 +1,16 @@
+Data:{"Device_Modal":"ESP8266_WEMOS_D1_MINI","Device_Type":"WEMOS_D1_MINI","Device_Catagory":"WeMos_WiFi_Dev_Board","Time":"2021-3-6-14:44:14","Temp":"-127.00","LDR":"508","Bus_Voltage":"0.99","Shunt_Voltage":"-0.03","Load_Volts":"0.99","Current":"-0.30","Power":"0.00","Energy":"0.00","WiFi_Stations":[{"SSID":"inst","CH":"13","ENC":"WPA-WPA2-PSK","RSSI":"-56","PER":"88","MAC":"F0:B4:D2:08:BB:46"},{"SSID":"instl","CH":"6","ENC":"WPA-WPA2-PSK","RSSI":"-77","PER":"46","MAC":"84:D8:1B:C7:24:16"},{"SSID":"EZVIZ","CH":"7","ENC":"WPA2-PSK","RSSI":"-67","PER":"66","MAC":"1C:67:58:44:4B:CB"},],"Mac_Address":"10.0.0.16","On_Time":"9074"}
+Date:March 6, 2021, 2:44 pm
+Bytes:630
+------------------------->
+Data:{"Device_Modal":"ESP8266_WEMOS_D1_MINI","Device_Type":"WEMOS_D1_MINI","Device_Catagory":"WeMos_WiFi_Dev_Board","Time":"2021-3-6-14:44:17","Temp":"-127.00","LDR":"506","Bus_Voltage":"0.99","Shunt_Voltage":"-0.03","Load_Volts":"0.99","Current":"-0.30","Power":"0.00","Energy":"0.00","WiFi_Stations":[{"SSID":"inst","CH":"13","ENC":"WPA-WPA2-PSK","RSSI":"-52","PER":"96","MAC":"F0:B4:D2:08:BB:46"},{"SSID":"instl","CH":"6","ENC":"WPA-WPA2-PSK","RSSI":"-77","PER":"46","MAC":"84:D8:1B:C7:24:16"},{"SSID":"EZVIZ","CH":"7","ENC":"WPA2-PSK","RSSI":"-68","PER":"64","MAC":"1C:67:58:44:4B:CB"},],"Mac_Address":"10.0.0.16","On_Time":"12282"}
+Date:March 6, 2021, 2:44 pm
+Bytes:631
+------------------------->
+Data:{"Device_Modal":"ESP8266_WEMOS_D1_MINI","Device_Type":"WEMOS_D1_MINI","Device_Catagory":"WeMos_WiFi_Dev_Board","Time":"2021-3-6-14:44:22","Temp":"-127.00","LDR":"509","Bus_Voltage":"0.99","Shunt_Voltage":"-0.03","Load_Volts":"0.99","Current":"-0.40","Power":"0.00","Energy":"0.00","WiFi_Stations":[{"SSID":"inst","CH":"13","ENC":"WPA-WPA2-PSK","RSSI":"-52","PER":"96","MAC":"F0:B4:D2:08:BB:46"},{"SSID":"instl","CH":"6","ENC":"WPA-WPA2-PSK","RSSI":"-77","PER":"46","MAC":"84:D8:1B:C7:24:16"},{"SSID":"EZVIZ","CH":"7","ENC":"WPA2-PSK","RSSI":"-68","PER":"64","MAC":"1C:67:58:44:4B:CB"},],"Mac_Address":"10.0.0.16","On_Time":"18143"}
+Date:March 6, 2021, 2:44 pm
+Bytes:631
+------------------------->
+Data:{"Device_Modal":"ESP8266_WEMOS_D1_MINI","Device_Type":"WEMOS_D1_MINI","Device_Catagory":"WeMos_WiFi_Dev_Board","Time":"2021-3-6-14:44:19","Temp":"-127.00","LDR":"509","Bus_Voltage":"0.99","Shunt_Voltage":"-0.04","Load_Volts":"0.99","Current":"-0.10","Power":"0.00","Energy":"0.00","WiFi_Stations":[{"SSID":"inst","CH":"13","ENC":"WPA-WPA2-PSK","RSSI":"-52","PER":"96","MAC":"F0:B4:D2:08:BB:46"},{"SSID":"instl","CH":"6","ENC":"WPA-WPA2-PSK","RSSI":"-76","PER":"48","MAC":"84:D8:1B:C7:24:16"},{"SSID":"EZVIZ","CH":"7","ENC":"WPA2-PSK","RSSI":"-69","PER":"62","MAC":"1C:67:58:44:4B:CB"},],"Mac_Address":"10.0.0.16","On_Time":"15160"}
+Date:March 6, 2021, 2:44 pm
+Bytes:631
+------------------------->
