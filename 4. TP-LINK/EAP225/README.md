@@ -1,6 +1,6 @@
 # EAP225
 
-Download v4 of the software
+Download v3.2.14 of the software
 
 https://www.tp-link.com/us/support/download/omada-software-controller/v4/
 
