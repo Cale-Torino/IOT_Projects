@@ -11,8 +11,8 @@ A repository containing all my IOT Projects
 |3.|HC-06 Bluetooth module|*[HC-06 Bluetooth module Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/3.%20HC-06%20Bluetooth%20module)*|
 |4.|TP-LINK|*[TP-LINK Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/4.%20TP-LINK)*|
 |5.|IOT Dashboard|*[IOT Dashboard Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/5.%20IOT%20Dashboard)*|
-|6.|GPS uBlox files|*[GPS uBlox Link](NULL)*|
-|7.|Diy Relay 4 files|*[Diy_relay_4 Link](NULL)*|
+|6.|GPS uBlox files|*[GPS uBlox Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/6.%20GPS%20uBlox%205)*|
+|7.|Diy Relay 4ch files|*[Diy Relay Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/7.%20Diy_relay_4)*|
 
 |0.|NULL files|*[NULL Link](NULL)*|
 
