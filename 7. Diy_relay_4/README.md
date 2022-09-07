@@ -22,7 +22,7 @@ MH-CD42
 
 https://www.robotics.org.za/MH-CD42?search=lipo%20charger%203.7v%202a%20in%205v%20%20%20led%20level%20indicator
 
-[<img src="img/heading.jpg" width="500"/>](img/heading.jpg)
+[<img src="img/LiPo.jpg" width="500"/>](img/LiPo.jpg)
 
 ### Relay
 
