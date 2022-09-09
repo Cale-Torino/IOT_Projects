@@ -1,11 +1,9 @@
 # Diy 4ch Relay
 
+Creating A 4ch relay board with a backup LiPo battery
 
-https://www.letscontrolit.com/forum/viewtopic.php?t=2721
 
-https://www.robotics.org.za/MH-CD42?search=lipo%20charger%203.7v%202a%20in%205v%20%20%20led%20level%20indicator
 
-https://www.robotics.org.za/IM150515008?search=esp8266%20based%204-channel%20switch%20%20%20free%20app%20android%20-%20ios
 
 ---
 
@@ -13,6 +11,14 @@ Building a sonoff 4ch relay board with lipo battery backup
 
 
 ## Parts list
+
+### Veroboard 100 x 100 mm
+
+Holes are spaced 2.54mm apart
+
+https://www.robotics.org.za/VERO100100?search=veroboard%20100%20x%20100mm
+
+[<img src="img/vero.jpg" width="500"/>](img/vero.jpg)
 
 ### LiPo charger 
 
@@ -125,9 +131,11 @@ https://www.robotics.org.za/RES-100E-50?search=resistor
 
 [<img src="img/100ohm.jpg" width="500"/>](img/100ohm.jpg)
 
+---
 
 
 
+https://www.letscontrolit.com/forum/viewtopic.php?t=2721
 
 
 
