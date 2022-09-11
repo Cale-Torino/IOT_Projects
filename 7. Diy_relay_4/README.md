@@ -26,6 +26,8 @@ MH-CD42
 
 3.7V Lithium battery to a 5V output with current up to 2.1A
 
+Check out [this](https://github.com/GOTO-GOSUB/MH-CD42-Utility-Board/blob/main/README.md) link because these boards don't always work. I learned the hard way.
+
 https://www.robotics.org.za/MH-CD42?search=lipo%20charger%203.7v%202a%20in%205v%20%20%20led%20level%20indicator
 
 [<img src="img/LiPo.jpg" width="500"/>](img/LiPo.jpg)
