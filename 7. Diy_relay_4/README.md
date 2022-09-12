@@ -28,6 +28,8 @@ MH-CD42
 
 Check out [this](https://github.com/GOTO-GOSUB/MH-CD42-Utility-Board/blob/main/README.md) link because these boards don't always work. I learned the hard way.
 
+Example video: [this](https://www.youtube.com/watch?v=ThIcHJ3ovIk) add a large capaciter across the output.
+
 https://techobsessed.net/tag/mh-cd42/
 
 https://www.robotics.org.za/MH-CD42?search=lipo%20charger%203.7v%202a%20in%205v%20%20%20led%20level%20indicator
