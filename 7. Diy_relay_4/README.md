@@ -9,6 +9,16 @@ Creating A 4ch relay board with a backup LiPo battery
 
 Building a sonoff 4ch relay board with lipo battery backup
 
+## Stripboard Planning
+
+https://veecad.com
+
+https://electronics.stackexchange.com/questions/1600/stripboard-veroboard-matrix-board-design-software
+
+https://electronicsclub.info/stripboard.htm
+
+https://www.instructables.com/Practical-Circuit-Construction-With-Strip-Board/
+
 
 ## Parts list
 
