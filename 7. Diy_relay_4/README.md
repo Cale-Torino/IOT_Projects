@@ -60,7 +60,7 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
 
 - Price list (no opto isolater and no battery)
     - R147.20 1x ESP8266 Based 4-Channel Switch
-    - R32.20 4x relays
+    - R32.20 4x relays (R8.05 for 1)
     - R13.80 1x AMS1117 3.3V Regulator Module
     - R25.30 1x Veroboard 100 x 100 mm
     - R41.40 1x LiPo Charger 3.7V with DC-DC Boost 4.5-24V
@@ -72,7 +72,7 @@ Total: R417.45 as of 15th Sep 2022
 
 Without battery: R281.75
 
-3.3 v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
+R12.66 for 1 3.3v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
 
 
 ## Stripboard Planning
