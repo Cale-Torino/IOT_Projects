@@ -1,13 +1,21 @@
-# Diy 4ch Relay
+# Diy ESP8266 PSB-04-CN 4ch Relay
 
-Creating A 4ch relay board with a backup LiPo battery
+Creating A 4ch relay board with a backup LiPo battery.
 
+Please note: _**This is version 1.0**_, just getting a feel with a lot of wires, testing points and hot glue.
 
+Subsequent versions will be user friendly.
+
+[<img src="img/LiPo/10.jpg" width="500"/>](img/LiPo/10.jpg)
 
 
 ---
 
-Relay board v1.0 made on strip board
+Relay board v1.0 made on strip board.
+
+GPIO- and Channel must be brought to GND for 5s to go into pairing mode.
+
+First time I had to use Ewelink compatible mode for old firmware v1.1.0
 
  - Features
     - Power part
@@ -28,6 +36,7 @@ Relay board v1.0 made on strip board
     - Maybe use 18650 batt instead of 21700 (less capacity but more common) [18650 Battery Holder](https://www.robotics.org.za/18650-1C-TH?search=18650) [18650 Battery](https://www.robotics.org.za/INR18650-35E?search=18650)
     - replace overkill 1A Diode with [1N4148](https://www.robotics.org.za/1N4148)
     - Look for newer ESP module
+    - Add female headers for all modules
 
 ## Stripboard Planning
 
