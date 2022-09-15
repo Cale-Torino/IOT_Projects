@@ -7,7 +7,27 @@ Creating A 4ch relay board with a backup LiPo battery
 
 ---
 
-Building a sonoff 4ch relay board with lipo battery backup
+Relay board v1.0 made on strip board
+
+ - Features
+    - Power part
+     - 5v USB-A (plugs in to cellphone charger etc.)
+    - Battery part
+     - LiPo battery backup 5000mAh
+     - Charge and Discharge, Over Current Protection (OCP), Over-Voltage Protection (OVP), Short Circuit Protection (SCP), Over Temperature Protection (OTP)
+     - 2A current
+    - Board part
+     - Ewelink ESP8266 PSB-04 
+     - 4 relays
+     - No firmware or software needed (use Ewelink features)
+
+- Suggested improvements
+    - Move ststus LEDs away from relay NO and NC area (Danger if high voltages used)
+    - Opto-Isolate relays [PC817 Opto Isolator](https://www.robotics.org.za/PC817-DIP)
+    - Use TP4056 1A basic LiPo charger instead of 2A MH-CD42 (overkill and less reliable, more expensive) [TP4056](https://www.robotics.org.za/PK4056?search=4056) or [with DC-DC Boost](https://www.robotics.org.za/J5019?search=step%20up)
+    - Maybe use 18650 batt instead of 21700 (less capacity but more common) [18650 Battery Holder](https://www.robotics.org.za/18650-1C-TH?search=18650) [18650 Battery](https://www.robotics.org.za/INR18650-35E?search=18650)
+    - replace overkill 1A Diode with [1N4148](https://www.robotics.org.za/1N4148)
+    - Look for newer ESP module
 
 ## Stripboard Planning
 
