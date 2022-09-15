@@ -58,6 +58,23 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
     - Look for newer and cheaper Ewelink programmed ESP module
     - Add female headers for all modules
 
+- Price list (no opto isolater and no battery)
+    - R147.20 1x ESP8266 Based 4-Channel Switch
+    - R32.20 4x relays
+    - R13.80 1x AMS1117 3.3V Regulator Module
+    - R25.30 1x Veroboard 100 x 100 mm
+    - R41.40 1x LiPo Charger 3.7V with DC-DC Boost 4.5-24V
+    - R135.70 1x Samsung 18650 3500mA 3.7V
+    - R10.35 1x battery holder
+    - R11.50 x1 USB A Pictail Cable, 30cm
+
+3.3 v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
+
+Total: R417.45 as of 15th Sep 2022
+
+Without battery: R281.75
+
+
 ## Stripboard Planning
 
 https://veecad.com
