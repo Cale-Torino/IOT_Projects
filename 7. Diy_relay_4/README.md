@@ -6,6 +6,26 @@ Please note: _**This is version 1.0**_, just getting a feel with a lot of wires,
 
 Subsequent versions will be user friendly.
 
+The reason I am using Ewelink module is because all the software and firmware has already been tested and supplied.
+
+I found that using my own software and firmware requires:
+
+- Constant connection to a server
+- MQTT support and/or
+- HTTP support
+- A web frontend and/or
+- Mobile application
+- API to glue everything together
+- Watchdog in software and/or in hardware
+- Firmware with many fail-safe attributes
+
+So instead of doing all the above aforementioned work using a simple module saves time.
+
+However just the module costs 3 times more than purchasing an ESP8266 module by itself and not Ewelink programmed.
+
+I hope to find cheaper modules Ewelink programmed in future.
+
+
 [<img src="img/LiPo/10.jpg" width="500"/>](img/LiPo/10.jpg)
 
 
@@ -19,23 +39,23 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
 
  - Features
     - Power part
-     - 5v USB-A (plugs in to cellphone charger etc.)
+        - 5v USB-A (plugs in to cellphone charger etc.)
     - Battery part
-     - LiPo battery backup 5000mAh
-     - Charge and Discharge, Over Current Protection (OCP), Over-Voltage Protection (OVP), Short Circuit Protection (SCP), Over Temperature Protection (OTP)
-     - 2A current
+        - LiPo battery backup 5000mAh
+        - Charge and Discharge, Over Current Protection (OCP), Over-Voltage Protection (OVP), Short Circuit Protection (SCP), Over Temperature Protection (OTP)
+        - 2A current
     - Board part
-     - Ewelink ESP8266 PSB-04 
-     - 4 relays
-     - No firmware or software needed (use Ewelink features)
+        - Ewelink ESP8266 PSB-04 
+        - 4 relays
+        - No firmware or software needed (use Ewelink features)
 
 - Suggested improvements
     - Move ststus LEDs away from relay NO and NC area (Danger if high voltages used)
     - Opto-Isolate relays [PC817 Opto Isolator](https://www.robotics.org.za/PC817-DIP)
     - Use TP4056 1A basic LiPo charger instead of 2A MH-CD42 (overkill and less reliable, more expensive) [TP4056](https://www.robotics.org.za/PK4056?search=4056) or [with DC-DC Boost](https://www.robotics.org.za/J5019?search=step%20up)
-    - Maybe use 18650 batt instead of 21700 (less capacity but more common) [18650 Battery Holder](https://www.robotics.org.za/18650-1C-TH?search=18650) [18650 Battery](https://www.robotics.org.za/INR18650-35E?search=18650)
-    - replace overkill 1A Diode with [1N4148](https://www.robotics.org.za/1N4148)
-    - Look for newer ESP module
+    - Maybe use 18650 batt instead of 21700 (less capacity but more common) [18650 Battery Holder](https://www.robotics.org.za/18650-1C-TH?search=18650) and [18650 Battery](https://www.robotics.org.za/INR18650-35E?search=18650)
+    - Replace overkill 1A Diode with [1N4148](https://www.robotics.org.za/1N4148)
+    - Look for newer and cheaper Ewelink programmed ESP module
     - Add female headers for all modules
 
 ## Stripboard Planning
