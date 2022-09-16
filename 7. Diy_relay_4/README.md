@@ -27,7 +27,7 @@ However just the module costs 3 times more than purchasing an ESP8266 module by 
 
 I hope to find cheaper modules Ewelink programmed in future.
 
-[<img src="img/LiPo/10.jpg" width="500"/>](img/LiPo/10.jpg)
+[<img src="img/device.jpg" width="500"/>](img/device.jpg)
 
 ---
 
