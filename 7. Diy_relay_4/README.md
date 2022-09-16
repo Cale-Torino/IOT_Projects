@@ -25,9 +25,7 @@ However just the module costs 3 times more than purchasing an ESP8266 module by 
 
 I hope to find cheaper modules Ewelink programmed in future.
 
-
 [<img src="img/LiPo/10.jpg" width="500"/>](img/LiPo/10.jpg)
-
 
 ---
 
@@ -71,6 +69,8 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
 Total: R417.45 as of 15th Sep 2022
 
 Without battery: R281.75
+
+Plus electricity and solder, labour (JLC pcb designed board instead of veroboard)
 
 R12.66 for 1 3.3v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
 
