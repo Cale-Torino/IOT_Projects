@@ -33,7 +33,7 @@ I hope to find cheaper modules Ewelink programmed in future.
 
 Relay board v1.0 made on strip board.
 
-GPIO- and Channel must be brought to GND for 5s to go into pairing mode.
+GPIO-0 and Channel must be brought to GND for 5s to go into pairing mode.
 
 First time I had to use Ewelink compatible mode for old firmware v1.1.0
 
