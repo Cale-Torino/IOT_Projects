@@ -58,6 +58,7 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
     - Look for newer and cheaper Ewelink programmed ESP module
     - Add female headers for all modules
     - Correct drill bit for relay terminals and pins
+    - Add power switch between LiPo charger and battery
 
 - Rough Price list (no opto isolater and no battery)
     - R147.20 1x ESP8266 Based 4-Channel Switch
