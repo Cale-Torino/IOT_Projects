@@ -57,8 +57,9 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
     - Replace overkill 1A Diode with [1N4148](https://www.robotics.org.za/1N4148)
     - Look for newer and cheaper Ewelink programmed ESP module
     - Add female headers for all modules
+    - Correct drill bit for relay terminals and pins
 
-- Price list (no opto isolater and no battery)
+- Rough Price list (no opto isolater and no battery)
     - R147.20 1x ESP8266 Based 4-Channel Switch
     - R32.20 4x relays (R8.05 for 1)
     - R13.80 1x AMS1117 3.3V Regulator Module
