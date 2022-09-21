@@ -94,7 +94,11 @@ https://www.instructables.com/Practical-Circuit-Construction-With-Strip-Board/
 https://www.letscontrolit.com/forum/viewtopic.php?t=2721
 
 
-
+- Rough Price list (version with self-programmed ESP8266 & least amount of modules us parts)
+    - Liion module mandatory
+    - ESP module mandatory
+        - POWER
+            - 3.3v ams1117 smd [here]()
 
 
 
