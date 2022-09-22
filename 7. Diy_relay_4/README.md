@@ -95,16 +95,21 @@ https://www.letscontrolit.com/forum/viewtopic.php?t=2721
 
 
 - Rough Price list (version with self-programmed ESP8266 & least amount of modules us parts)
-    - Li-ion module mandatory (built in 5v step up)
-    - ESP module mandatory 3.3v
+    - Li-ion module mandatory (built in 5v step up) [here](https://www.robotics.org.za/MH-CD42?search=lipo) or [here](https://www.robotics.org.za/J5019?search=lipo)
+    - 18650 battery [here](https://www.robotics.org.za/INR18650-35E?search=18650%20battery)
+    - 18650 battery holder [here](https://www.robotics.org.za/18650-1C-TH?search=18650%20holder)
+    - USB-A pictail [here](https://www.robotics.org.za/USB-A-CABLE?search=usb-a)
+    - Push button x4 [here](https://www.robotics.org.za/MR-C561495)
+    - ESP module mandatory 3.3v [here](https://www.robotics.org.za/IM150515008?search=esp)
         - Led yellow x1 [here](https://www.robotics.org.za/LED-YEL-5MM?search=led)
         - POWER
-            - 3.3v ams1117 smd x1 [here](https://www.robotics.org.za/AMS-1117-SOT223?search=1117)
+            - 3.3v ams1117 smd 15v max x1 [here](https://www.robotics.org.za/AMS-1117-SOT223?search=1117)
             - Capacitor 10uF 25V x2 [here](https://www.robotics.org.za/CAP-10UF-25V?search=capacitor) or Capacitor 100uF 25V x2 [here](https://www.robotics.org.za/CAP-100UF-25V?search=100uf)
             - Capacitor Ceramic 100nF 50v x2 [here](https://www.robotics.org.za/100NF-10?search=capacitor)
         - RELAY
             - BC547 transistor x4 [here](https://www.robotics.org.za/100NF-10?search=capacitor)
             - 1N4148 diode x4 [here](https://www.robotics.org.za/index.php?route=product/search&search=1N4148)
+            - Songle relay x4 [here](https://www.robotics.org.za/SRD-5VDC-SL-C?search=relay&page=2)
             - 1k resistor x4 [here](https://www.robotics.org.za/RES-1K-50?search=1k)
             - led red x4 [here](https://www.robotics.org.za/LED002?search=3mm%20led)
 
