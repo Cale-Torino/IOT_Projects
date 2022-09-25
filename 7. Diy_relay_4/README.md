@@ -102,7 +102,7 @@ https://www.instructables.com/Practical-Circuit-Construction-With-Strip-Board/
 https://www.letscontrolit.com/forum/viewtopic.php?t=2721
 
 
-- Rough Price list (version with self-programmed ESP8266 & least amount of modules us parts)
+- Rough Price list (version with self-programmed ESP8266 or eWelink ESP8266 & least amount of modules us parts)
     - Li-ion module mandatory (built in 5v step up) [here](https://www.robotics.org.za/MH-CD42?search=lipo) or [here](https://www.robotics.org.za/J5019?search=lipo)
     - 18650 battery [here](https://www.robotics.org.za/INR18650-35E?search=18650%20battery)
     - 18650 battery holder [here](https://www.robotics.org.za/18650-1C-TH?search=18650%20holder)
