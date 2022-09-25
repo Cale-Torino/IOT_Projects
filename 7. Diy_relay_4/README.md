@@ -82,11 +82,11 @@ Total:
 - With battery: **R417.45** as of 15th Sep 2022
 - Without battery: **R281.75** as of 15th Sep 2022
 
+Plus electricity and solder, labour (JLC pcb designed board instead of veroboard)
+
 Even better if you can find old laptop batteries and harvest the 18650 cells for free. Be sure to check voltage and capacity properly.
 - Charge at 4.0v 100mA low current
 - Once voltage is up add to Li-ion/Lipo charger
-
-Plus electricity and solder, labour (JLC pcb designed board instead of veroboard)
 
 Local commercial 4ch relay modal without battery backup price for comparison:
 - R299.00 + shipping [TUYA 4CH Wifi](https://dlifesa.com/products/wifi-control-smart-life-tuya-4ch-door-opener-relay-module?variant=39402464477251&currency=ZAR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
