@@ -14,7 +14,7 @@ I found that using my own software and firmware requires:
 
 - Constant connection to a server
 - MQTT support and/or
-- HTTP support
+- HTTP - TCP support
 - A web frontend and/or
 - Mobile application
 - API to glue everything together
@@ -22,6 +22,14 @@ I found that using my own software and firmware requires:
 - Firmware with many fail-safe attributes
 
 So instead of doing all the above aforementioned work using a simple module saves time.
+
+Also connection over the internet is a must as well as local.
+
+I have created firmware that works via TCP and a MQTT version, which can TX and RX to any ESP8266 0r ESP32 module but it needs a server 24/7.
+
+Hence for simplicity and ease I decided to go with a eWelink programmed ESP8266 module.
+
+Perhaps in future I will setup a permenent IOT self managed server.
 
 However just the module costs 3 times more than purchasing an ESP8266 module by itself and not Ewelink programmed.
 
