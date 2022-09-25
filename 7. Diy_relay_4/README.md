@@ -78,13 +78,24 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
     - R10.35 1x battery holder
     - R11.50 x1 USB A Pictail Cable, 30cm
 
-Total: R417.45 as of 15th Sep 2022
+Total: 
+- With battery: **R417.45** as of 15th Sep 2022
+- Without battery: **R281.75** as of 15th Sep 2022
 
-Without battery: R281.75
+Even better if you can find old laptop batteries and harvest the 18650 cells for free. Be sure to check voltage and capacity properly.
+- Charge at 4.0v 100mA low current
+- Once voltage is up add to Li-ion/Lipo charger
 
 Plus electricity and solder, labour (JLC pcb designed board instead of veroboard)
 
-R12.66 for 1 3.3v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
+Local commercial 4ch relay modal without battery backup price for comparison:
+- R299.00 + shipping [TUYA 4CH Wifi](https://dlifesa.com/products/wifi-control-smart-life-tuya-4ch-door-opener-relay-module?variant=39402464477251&currency=ZAR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
+- R409.00 + shipping [eWelink WiFi/RF 4 CH](https://www.geewiz.co.za/sonoff-basic-r2-r3-smart-switch/176471-eachen-wifi-rf-4-channel-inching-relay-momentaryself-lockinginterlock-switch-module-st-dc4.html)
+- R429.00 + shipping [eWelink WiFi/RF ST-DC4](https://eiferer.co.za/products/wifi-rf-inching-relay-momentary-self-locking-interlock-switch-module-st-dc4?variant=37797907235009&currency=ZAR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
+- R479.00 + shipping [eWelink WiFi+RF 4-way Switch Module](https://www.takealot.com/dc-wifi-rf-4-way-switch-module-inching-momentary-self-locking-in/PLID91301974)
+
+
+**R12.66** for 1 3.3v relay [SUGAR CUBE SEALED RELAY](https://www.communica.co.za/products/hf3fa-003-zstf136) no DC-DC boost needed
 
 
 ## Stripboard Planning
@@ -121,13 +132,17 @@ https://www.letscontrolit.com/forum/viewtopic.php?t=2721
             - 1k resistor x4 [here](https://www.robotics.org.za/RES-1K-50?search=1k)
             - led red x4 [here](https://www.robotics.org.za/LED002?search=3mm%20led)
 
+## Use Cases
 
+Main use I had in mind is a decently long battery use length.
 
+This is because of the ongoing **Load-Shedding** problem since 2008.
 
+I already have battery solutions for WiFi router and PC power now this 4ch switch can be used anyware where WiFi reaches
 
+Adding a 15W solar panel makes this an awesome standalone product. 
 
-
-
+I can now place it ontop of a 100m shed or waterproof (container & nail varnish) the device and place it in a remote location
 
 
 
