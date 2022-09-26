@@ -13,6 +13,9 @@ A repository containing all my IOT Projects
 |5.|IOT Dashboard|*[IOT Dashboard Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/5.%20IOT%20Dashboard)*|
 |6.|GPS uBlox files|*[GPS uBlox Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/6.%20GPS%20uBlox%205)*|
 |7.|Diy Relay 4ch files|*[Diy Relay Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/7.%20Diy_relay_4)*|
+|8.|Diy mini ups files|*[Diy mini ups Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/8.%20DIY_mini_ups)*|
+
+
 
 |0.|NULL files|*[NULL Link](NULL)*|
 
