@@ -144,6 +144,12 @@ Adding a 15W solar panel makes this an awesome standalone product.
 
 I can now place it ontop of a 100m shed or waterproof (container & nail varnish) the device and place it in a remote location
 
+---
 
+## ToDo
+
+- Add schematic
+- Add stripboard planning
+- Seperate V1.0 and V1.1 components and planning
 
 
