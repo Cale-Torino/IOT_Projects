@@ -14,7 +14,7 @@ Subsequent versions will be user friendly.
 
 ### Version 1.1 board
 
-[<img src="img/22.JPG" width="500"/>](img/22.JPG)
+[<img src="img/22.jpg" width="500"/>](img/22.jpg)
 
 The reason I am using Ewelink module is because all the software and firmware has already been tested and supplied.
 
