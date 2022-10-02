@@ -12,6 +12,10 @@ Subsequent versions will be user friendly.
 
 [<img src="img/21.jpg" width="500"/>](img/21.jpg)
 
+### Version 1.1 board
+
+[<img src="img/22.jpg" width="500"/>](img/22.jpg)
+
 The reason I am using Ewelink module is because all the software and firmware has already been tested and supplied.
 
 I found that using my own software and firmware requires:
