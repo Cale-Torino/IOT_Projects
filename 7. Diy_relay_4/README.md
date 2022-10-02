@@ -8,6 +8,10 @@ Please note: _**This is version 1.0**_, just getting a feel with a lot of wires,
 
 Subsequent versions will be user friendly.
 
+### Version 1.1 layout
+
+[<img src="img/21.jpg" width="500"/>](img/21.jpg)
+
 The reason I am using Ewelink module is because all the software and firmware has already been tested and supplied.
 
 I found that using my own software and firmware requires:
