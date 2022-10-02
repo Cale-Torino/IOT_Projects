@@ -1,5 +1,7 @@
 # Diy ESP8266 PSB-04-CN 4ch Relay
 
+Link to my article on my tutorial website [here](https://tutorials.techrad.co.za/2022/10/01/diy-battery-wifi-4ch-relay-pcb).
+
 https://user-images.githubusercontent.com/52330180/190706517-0a584dca-c596-4cc6-8c41-7f4a87a8c2d9.mp4
 
 Creating A 4ch relay board with a backup LiPo battery.
