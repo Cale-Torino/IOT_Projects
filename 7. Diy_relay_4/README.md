@@ -79,6 +79,7 @@ First time I had to use Ewelink compatible mode for old firmware v1.1.0
     - Add power switch between LiPo charger and battery
     - Add large 1000uF capacitor between GND and 5v out of LiPo Module
     - Potentially Use BC557 PNP or 10K resistor between base and GND to avoid relay briefly triggering on startup
+    - need to add 10k between base and GND of BC547
 
 - Rough Price list (no opto isolater and no battery)
     - R147.20 1x ESP8266 Based 4-Channel Switch
