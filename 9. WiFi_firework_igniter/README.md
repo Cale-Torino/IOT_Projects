@@ -10,3 +10,9 @@ the board will use mosfets as switches to nichrome wire which will heat up and i
 
 required components:
 
+pcb
+esp8266
+mosfets
+nichrome wire
+10k resistor
+1k resistor
