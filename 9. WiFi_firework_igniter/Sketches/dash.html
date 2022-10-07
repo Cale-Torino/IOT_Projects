@@ -15,12 +15,23 @@
     input:checked+.slider {background-color: #b30000}
     input:checked+.slider:before {-webkit-transform: translateX(52px); -ms-transform: translateX(52px); transform: translateX(52px)}
     .alert {padding: 20px;background-color: #f44336;color: white;margin-bottom: 15px;}
+    .content { padding: 20px; }
+    .card { background-color: white; box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5); }
+    .cards { max-width: 800px; margin: 0 auto; display: grid; grid-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .reading { font-size: 1.4rem; }
   </style>
 </head>
 <body style="background-color:rgb(174, 182, 184);">
   <h2 id="title">Fireworks Trigger Dash</h2>
   <h4>Firework 1 - GPIO 5</h4><label class="switch"><input type="checkbox" onchange="toggleCheckbox(this)" id="5"><span class="slider"></span></label>
   <div class="alert"><span></span><strong>Danger!</strong> The battery voltage is too low to ignite!.</div>
+  <div class="content">
+    <div class="cards">
+      <div class="card">
+        <p><i class="fas fa-thermometer-half" style="color:#059e8a;"></i> VOLTAGE</p><p><span class="reading"><span id="temp">%VOLTAGE%</span> V</span></p>
+      </div>
+    </div>
+  </div>
   <script>
     function toggleCheckbox(element) {
       var xhr = new XMLHttpRequest();
@@ -32,6 +43,27 @@
         if(document.getElementById(element.id).checked = false){document.getElementById(element.id).setAttribute("checked", "checked");}
       }, 7000);
     }
+    if (!!window.EventSource) {
+ var source = new EventSource('/events');
+ 
+ source.addEventListener('open', function(e) {
+  console.log("Events Connected");
+ }, false);
+ source.addEventListener('error', function(e) {
+  if (e.target.readyState != EventSource.OPEN) {
+    console.log("Events Disconnected");
+  }
+ }, false);
+ 
+ source.addEventListener('message', function(e) {
+  console.log("message", e.data);
+ }, false);
+ 
+ source.addEventListener('temperature', function(e) {
+  console.log("temperature", e.data);
+  document.getElementById("temp").innerHTML = e.data;
+ }, false);
+}
     </script>
 </body>
 </html>
