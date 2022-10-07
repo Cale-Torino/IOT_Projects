@@ -1,12 +1,12 @@
 <!DOCTYPE HTML><html>
 <head>
-  <title>Fireworks Trigger Dash</title>
+  <title>Fireworks Dash</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
   <style>
     html {font-family: Arial; display: inline-block; text-align: center;}
     h2 {font-size: 3.0rem;}
-    p {font-size: 3.0rem;}
+    p {font-size: 2.0rem;}
     body {max-width: 600px; margin:0px auto; padding-bottom: 25px;}
     .switch {position: relative; display: inline-block; width: 120px; height: 68px} 
     .switch input {display: none}
@@ -21,49 +21,40 @@
     .reading { font-size: 1.4rem; }
   </style>
 </head>
-<body style="background-color:rgb(174, 182, 184);">
-  <h2 id="title">Fireworks Trigger Dash</h2>
+<body style="background-color:#aeb6b8;">
+  <h2 id="title">Fireworks Dash</h2>
   <h4>Firework 1 - GPIO 5</h4><label class="switch"><input type="checkbox" onchange="toggleCheckbox(this)" id="5"><span class="slider"></span></label>
   <div class="alert"><span></span><strong>Danger!</strong> The battery voltage is too low to ignite!.</div>
   <div class="content">
     <div class="cards">
       <div class="card">
-        <p><i class="fas fa-thermometer-half" style="color:#059e8a;"></i> VOLTAGE</p><p><span class="reading"><span id="temp">%VOLTAGE%</span> V</span></p>
+        <p> VOLTAGE</p><p><span class="reading"><span id="volts">%VOLTAGE%</span> V</span></p>
       </div>
     </div>
   </div>
   <script>
+    var Timeout;
     function toggleCheckbox(element) {
       var xhr = new XMLHttpRequest();
       if(element.checked){ xhr.open("GET", "/update?output="+element.id+"&state=1", true); }
       else { xhr.open("GET", "/update?output="+element.id+"&state=0", true); }
       xhr.send();
-      setTimeout(() => {
-        //if(document.getElementById(element.id).checked = true){document.getElementById(element.id).removeAttribute("checked");}
+      clearTimeout(Timeout);
+      Timeout = setTimeout(() => {
         if(document.getElementById(element.id).checked = false){document.getElementById(element.id).setAttribute("checked", "checked");}
-      }, 7000);
+      }, 8000);
     }
-    if (!!window.EventSource) {
- var source = new EventSource('/events');
- 
- source.addEventListener('open', function(e) {
-  console.log("Events Connected");
- }, false);
- source.addEventListener('error', function(e) {
-  if (e.target.readyState != EventSource.OPEN) {
-    console.log("Events Disconnected");
-  }
- }, false);
- 
- source.addEventListener('message', function(e) {
-  console.log("message", e.data);
- }, false);
- 
- source.addEventListener('temperature', function(e) {
-  console.log("temperature", e.data);
-  document.getElementById("temp").innerHTML = e.data;
- }, false);
-}
+    function updateVolts() {
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            document.getElementById("volts").innerHTML = xhr.responseText;
+        }
+      }
+      xhr.open("GET", "/volts", true);
+      xhr.send();
+    }
+    var Interval = setInterval(updateVolts, 3000);
     </script>
 </body>
 </html>
