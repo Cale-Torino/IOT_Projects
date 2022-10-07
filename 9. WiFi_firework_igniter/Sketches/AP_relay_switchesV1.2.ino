@@ -2,6 +2,7 @@
 C.A Torino
 Open browser, visit 192.168.4.1
 TODO: Add timer to reset buttons when turnoff is triggered
+//https://stackoverflow.com/questions/54637148/how-to-add-onclick-event-to-start-timer
 */
 #include <ESP8266WiFi.h>
 #include <ESPAsyncTCP.h>
@@ -14,6 +15,9 @@ const char* PARAM_INPUT_1 = "output";
 const char* PARAM_INPUT_2 = "state";
 
 int sensevoltage = A0;
+int Firework1 = 2;
+int Firework2 = 4;
+int Firework3 = 5;
 int cutoffvoltage = 800;
 int timer1;
 int timer2;
@@ -22,10 +26,6 @@ int turnoff=900000;//Roughly 7 seconds
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
-
-unsigned long previousMillis = 0;
-
-const long interval = 30000;//10 seconds
 
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
@@ -50,11 +50,15 @@ const char index_html[] PROGMEM = R"rawliteral(
 <body>
   <h2>Fireworks Trigger Dash</h2>
   %BUTTONPLACEHOLDER%
-<script>function toggleCheckbox(element) {
+<script>
+function toggleCheckbox(element) {
   var xhr = new XMLHttpRequest();
   if(element.checked){ xhr.open("GET", "/update?output="+element.id+"&state=1", true); }
   else { xhr.open("GET", "/update?output="+element.id+"&state=0", true); }
   xhr.send();
+  setTimeout(() => {
+    if(document.getElementById(element.id).checked = false){document.getElementById(element.id).setAttribute("checked", "checked");}
+  }, 8000);
 }
 </script>
 </body>
@@ -68,53 +72,21 @@ String processor(const String& var){
     //if(analogRead(sensevoltage) > cutoffvoltage)
     //{ 
       String buttons = "";
-      buttons += "<h4>Firework 1 - GPIO 5</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"5\" " + outputState(5) + "><span class=\"slider\"></span></label>";
-      buttons += "<h4>Firework 2 - GPIO 4</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"4\" " + outputState(4) + "><span class=\"slider\"></span></label>";
-      buttons += "<h4>Firework 3 - GPIO 2</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"2\" " + outputState(2) + "><span class=\"slider\"></span></label>";
+      buttons += "<h4>Firework 1 - GPIO 5</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"5\" " + outputState(Firework3) + "><span class=\"slider\"></span></label>";
+      buttons += "<h4>Firework 2 - GPIO 4</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"4\" " + outputState(Firework2) + "><span class=\"slider\"></span></label>";
+      buttons += "<h4>Firework 3 - GPIO 2</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"2\" " + outputState(Firework1) + "><span class=\"slider\"></span></label>";
       return buttons;
     //}
     //else
     //{
        //String buttons = "";
        //buttons += "<div class=\"alert\"><span></span><strong>Danger!</strong> The battery voltage is too low to ignite!.</div>";
-       //digitalWrite(5, LOW);
-       //digitalWrite(4, LOW);
-       //digitalWrite(2, LOW);
+       //digitalWrite(Firework3, LOW);
+       //digitalWrite(Firework2, LOW);
+       //digitalWrite(Firework1, LOW);
        //return buttons;
     //}
 
-  }
-  return String();
-}
-
-String processor2(const String& var){
-  if(var == "BUTTONPLACEHOLDER"){
-      String buttons = "";
-      if(digitalRead(2)==HIGH)
-      {
-       buttons += "<h4>Firework 3 - GPIO 2</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"2\" ><span class=\"slider\"></span></label>";
-      }
-      else
-      {
-        buttons += "<h4>Firework 3 - GPIO 2</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"2\" checked><span class=\"slider\"></span></label>";
-      }
-        if(digitalRead(4)==HIGH)
-      {
-       buttons += "<h4>Firework 2 - GPIO 4</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"4\" ><span class=\"slider\"></span></label>";
-      }
-      else
-      {
-        buttons += "<h4>Firework 2 - GPIO 4</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"4\" checked><span class=\"slider\"></span></label>";
-      }
-        if(digitalRead(5)==HIGH)
-      {
-        buttons += "<h4>Firework 1 - GPIO 5</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"5\"><span class=\"slider\"></span></label>";
-      }
-      else
-      {
-        buttons += "<h4>Firework 1 - GPIO 5</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"5\" checked><span class=\"slider\"></span></label>";
-      }
-      return buttons;
   }
   return String();
 }
@@ -132,12 +104,12 @@ void setup(){
   // Serial port for debugging purposes
   Serial.begin(115200);
 
-  pinMode(5, OUTPUT);
-  digitalWrite(5, LOW);
-  pinMode(4, OUTPUT);
-  digitalWrite(4, LOW);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, LOW);
+  pinMode(Firework3, OUTPUT);
+  digitalWrite(Firework3, LOW);
+  pinMode(Firework2, OUTPUT);
+  digitalWrite(Firework2, LOW);
+  pinMode(Firework1, OUTPUT);
+  digitalWrite(Firework1, LOW);
   pinMode(sensevoltage, INPUT);
 
   timer1=0;
@@ -187,40 +159,31 @@ void setup(){
 }
  
 void loop(){
- if(digitalRead(2)==HIGH)
+ if(digitalRead(Firework1)==HIGH)
   {
     timer1++;
   }
-  if(digitalRead(4)==HIGH)
+  if(digitalRead(Firework2)==HIGH)
   {
     timer2++;
   }
-  if(digitalRead(5)==HIGH)
+  if(digitalRead(Firework3)==HIGH)
   {
     timer3++;
   }
   if(timer1>turnoff)
   {
-    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/html", index_html, processor2);
-    });
-    digitalWrite(2,LOW);
+    digitalWrite(Firework1,LOW);
     timer1=0;
   }
   if(timer2>turnoff)
   {
-    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/html", index_html, processor2);
-    });
-    digitalWrite(4,LOW);
+    digitalWrite(Firework2,LOW);
     timer2=0;
   }  
   if(timer3>turnoff)
   {
-    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/html", index_html, processor2);
-    });
-    digitalWrite(5,LOW);
+    digitalWrite(Firework3,LOW);
     timer3=0;
   }
 }

@@ -1,0 +1,9 @@
+esp8266.d1_mini_clone
+
+ssid: FireworksAP
+
+pass: 123456789
+
+pin = 2 used, pull high to activate
+pin = 4 used, pull high to activate
+pin = 5 used, pull high to activate
