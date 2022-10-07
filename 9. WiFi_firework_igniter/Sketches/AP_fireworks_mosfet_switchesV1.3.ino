@@ -23,6 +23,8 @@ For com port access denied
 
 https://arduino.stackexchange.com/questions/506/is-it-better-to-use-define-or-const-int-for-constants
 
+https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/soft-access-point-class.html
+
 */
 
 #include <ESP8266WiFi.h>
@@ -36,6 +38,10 @@ const char* password = "123456789";
 const char* PARAM_INPUT_1 = "output";
 const char* PARAM_INPUT_2 = "state";
 const char* PARAM_INPUT_3 = "volts";
+
+int ledState = LOW;
+unsigned long previousMillis = 0;
+const long interval = 1000;
 
 const uint8_t sensevoltage = A0;
 int Firework1 = 4;
@@ -164,6 +170,36 @@ String outputState(int output){
   }
 }
 
+void blink()
+{
+  unsigned long currentMillis = millis();
+  if (currentMillis - previousMillis >= interval) 
+  {
+    previousMillis = currentMillis;
+    if (ledState == LOW) 
+    {
+      ledState = HIGH;
+    } 
+    else 
+    {
+      ledState = LOW;
+    }   
+  }
+    // set the LED with the ledState of the variable:
+    digitalWrite(LED_BUILTIN, ledState);
+ }
+
+ void waitforAP()
+{
+  //loop here while no AP is connected to this station
+  while(WiFi.softAPgetStationNum() == 0)
+  {
+    blink();
+    delay(100);
+  }
+    digitalWrite(LED_BUILTIN, LOW);
+}
+
 void setup(){
 
   // Serial port for debugging purposes
@@ -171,7 +207,6 @@ void setup(){
 
   // Pins setup
   pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, LOW);
   pinMode(Firework4, OUTPUT);
   digitalWrite(Firework4, LOW);
   pinMode(Firework3, OUTPUT);
@@ -190,7 +225,7 @@ void setup(){
 
   DBG("Setting AP (Access Point)… \n");
   // Remove the password parameter, if you want the AP (Access Point) to be open
-  WiFi.softAP(ssid, password);
+  WiFi.softAP(ssid, password, 6, false, 1);
 
   // Route for root / web page
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
@@ -238,6 +273,8 @@ void setup(){
   value=analogRead(sensevoltage); delay(50); value=analogRead(sensevoltage); delay(50);
   value=analogRead(sensevoltage); delay(50); value=analogRead(sensevoltage); delay(50);
   value=analogRead(sensevoltage); delay(50); value=analogRead(sensevoltage);
+
+  waitforAP();
 }
 
 void loop(){
@@ -277,5 +314,9 @@ void loop(){
   {
     digitalWrite(Firework4,LOW);
     timer4=0;
+  }
+    if(!WiFi.softAPgetStationNum())
+  {
+    waitforAP();
   }
 }
