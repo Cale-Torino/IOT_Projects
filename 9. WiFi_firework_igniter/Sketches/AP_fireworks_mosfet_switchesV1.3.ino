@@ -44,6 +44,8 @@ unsigned long previousMillis = 0;
 const long interval = 1000;
 
 const uint8_t sensevoltage = A0;
+float vcc_adj = 1.096;
+float batt_warn_volts = 2.4;
 int Firework1 = 4;
 int Firework2 = 5;
 int Firework3 = 13;
@@ -234,6 +236,11 @@ void setup(){
 
   // Route for volts / web page
   server.on("/volts", HTTP_GET, [](AsyncWebServerRequest *request){
+      //float 33vcc = ESP.getVcc();
+      // if((float)ESP.getVcc()* vcc_adj < batt_warn_volts)
+      // {
+
+      // }
       value=analogRead(sensevoltage);
       vTmp = value * ( vRef / 1024.0 );
       vIn = vTmp / (R2/(R1+R2));
