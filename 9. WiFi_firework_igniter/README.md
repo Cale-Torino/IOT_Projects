@@ -15,8 +15,9 @@ Required components:
 - 4x IRL520N mosfet [here](https://www.robotics.org.za/IRL520N-TO-220)
 - 4x Nichrome wire coils from old vape coils
 - 2x 100k resistor look for 1% [here](https://www.robotics.org.za/RES-100K-50)
+- 5x 100k resistor 5% [here](https://www.robotics.org.za/RES-100K-50)
 - 4x 10k resistor 5% is fine [here](https://www.robotics.org.za/RES-10K-025)
-- 4x 560 resistors 5% is fine [here](https://www.robotics.org.za/RES-560E-50)
+- 4x 560 ohm resistors 5% is fine [here](https://www.robotics.org.za/RES-560E-50)
 - 4x 1N5822 Schottky Diodes [here](https://www.robotics.org.za/1N5822-TH)
 - 1x Boost Voltage Regulator [here](https://www.robotics.org.za/V228-2A)
 - 1x battery holder [here](https://www.robotics.org.za/18650-1C-TH)
@@ -29,6 +30,9 @@ Required components:
 - 4x 2 pin screw terminals [here](https://www.robotics.org.za/KF120-2P-254)
 - 1x 4 pin screw terminal [here](https://www.robotics.org.za/TC-4P-254)
 - Female and male headers [here]()
+
+also get:
+- PNP transisters bc557
 
 ---
 
