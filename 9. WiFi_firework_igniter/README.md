@@ -10,9 +10,45 @@ the board will use mosfets as switches to nichrome wire which will heat up and i
 
 required components:
 
-pcb
-esp8266
-mosfets
-nichrome wire
-10k resistor
-1k resistor
+- 1x 100 x 100 PCB [here](https://www.robotics.org.za/VERO100100)
+- 1x ESP8266 12F [here](https://www.robotics.org.za/ESP-12F)
+- 4x IRL520N mosfet [here](https://www.robotics.org.za/IRL520N-TO-220)
+- 4x Nichrome wire coils from old vape coils
+- 2x 100k resistor look for 1% [here](https://www.robotics.org.za/RES-100K-50)
+- 4x 10k resistor 5% is fine [here](https://www.robotics.org.za/RES-10K-025)
+- 4x 560 resistors 5% is fine [here](https://www.robotics.org.za/RES-560E-50)
+- 4x 1N5822 Schottky Diodes [here](https://www.robotics.org.za/1N5822-TH)
+- 1x Boost Voltage Regulator [here](https://www.robotics.org.za/V228-2A)
+- 1x battery holder [here](https://www.robotics.org.za/18650-1C-TH)
+- 2x 100nf capacitors [here]()
+- 1x 10uf cap [here]()
+- 1x 1000 uf cap [here]()
+- 1x LiPo charger with protection [here](https://www.robotics.org.za/PK4056)
+- 1x button [here]()
+- 1x jumper [here](https://www.robotics.org.za/CCC01505C-20?search=jumper)
+- 4x 2 pin screw terminals [here](https://www.robotics.org.za/KF120-2P-254)
+- 1x 4 pin screw terminal [here](https://www.robotics.org.za/TC-4P-254)
+- Female and male headers [here]()
+
+---
+
+MT3608 3.3v regulator
+https://www.robotics.org.za/V228-2A
+
+TP4056 with protection
+https://www.robotics.org.za/PK4056?search=lipo%20charger
+
+---
+
+Try DIY MT3608 boost converter.
+
+SOT23 to pcb pin
+https://www.robotics.org.za/SOT23-DIP
+
+MT3608 kit
+https://www.robotics.org.za/MT3608-SOT23-KIT?search=mt360
+
+https://electronics.stackexchange.com/questions/554631/why-is-the-2-2k-resistor-needed-in-an-mt3608-module
+
+
+
