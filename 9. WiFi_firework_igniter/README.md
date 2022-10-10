@@ -6,9 +6,9 @@ Creating A wifi fireworks igniter with a backup LiPo battery.
 
 With December just around the corner I wanted to design a remote fireworks igniter working on wifi and battery power.
 
-the board will use mosfets as switches to nichrome wire which will heat up and ignite fireworks from a safe distance
+The board will use mosfets as switches to nichrome wire which will heat up and ignite fireworks from a safe distance.
 
-required components:
+Required components:
 
 - 1x 100 x 100 PCB [here](https://www.robotics.org.za/VERO100100)
 - 1x ESP8266 12F [here](https://www.robotics.org.za/ESP-12F)

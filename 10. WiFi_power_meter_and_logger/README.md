@@ -1,24 +1,22 @@
 # WiFi power meter and logger
 
-WiFi_power_meter_and_logger
+Link to my article on my tutorial website [here]().
 
-Esp8266
+Creating a wifi power monitoring and logging device with a LiPo battery.
 
-lcd
+Connect to device and see the data via wifi, view on LCD or extract from SD card.
 
-sd card reader
+required components:
 
-lipo pcb
-
-battery holder
-
-current volts sensor
-
-screw terminal green 6A
-
-on off button
-
-100 x 100 pcb
+- 1x Esp8266
+- 1x Lcd
+- 1x SD card reader
+- 1x Lipo pcb
+- 1x Battery holder
+- 1x Current volts sensor
+- 1x Screw terminal 2 pin green 6A
+- 1x On off button
+- 1x 100 x 100 pcb
 
 
 
