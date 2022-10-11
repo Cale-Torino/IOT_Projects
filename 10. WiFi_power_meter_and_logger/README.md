@@ -1,4 +1,4 @@
-# WiFi power meter and logger
+# DIY WiFi power meter and logger
 
 Link to my article on my tutorial website [here]().
 

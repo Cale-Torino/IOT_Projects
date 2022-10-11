@@ -14,7 +14,8 @@ A repository containing all my IOT Projects
 |6.|GPS uBlox files|*[GPS uBlox Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/6.%20GPS%20uBlox%205)*|
 |7.|Diy Relay 4ch files|*[Diy Relay Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/7.%20Diy_relay_4)*|
 |8.|Diy mini ups files|*[Diy mini ups Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/8.%20DIY_mini_ups)*|
-
+|9.|WiFi firework igniter files|*[WiFi firework igniter Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/9.%20WiFi_firework_igniter)*|
+|10.|WiFi power meter and logger files|*[WiFi power meter and logger Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/10.%20WiFi_power_meter_and_logger)*|
 
 
 |0.|NULL files|*[NULL Link](NULL)*|
