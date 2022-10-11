@@ -44,15 +44,7 @@ https://www.robotics.org.za/PK4056?search=lipo%20charger
 
 ---
 
-Try DIY MT3608 boost converter.
 
-SOT23 to pcb pin
-https://www.robotics.org.za/SOT23-DIP
-
-MT3608 kit
-https://www.robotics.org.za/MT3608-SOT23-KIT?search=mt360
-
-https://electronics.stackexchange.com/questions/554631/why-is-the-2-2k-resistor-needed-in-an-mt3608-module
 
 
 
