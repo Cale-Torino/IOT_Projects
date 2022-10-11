@@ -18,5 +18,6 @@ required components:
 - 1x On off button
 - 1x 100 x 100 pcb
 
-
+also get:
+- PNP transisters bc557
 
