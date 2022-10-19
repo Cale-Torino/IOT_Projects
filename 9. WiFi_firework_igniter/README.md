@@ -24,7 +24,7 @@ Required components:
 - 2x 100nf capacitors [here]()
 - 1x 10uf cap [here]()
 - 1x 1000 uf cap [here]()
-- 1x LiPo charger with protection [here](https://www.robotics.org.za/PK4056)
+- 1x LiPo charger with protection [here](https://www.robotics.org.za/PK4056) or [LiPo charger & 5v boost](https://www.robotics.org.za/MH-CD42?search=lipo%20charger%203.7v%202a%20in%205v%20%20%20led%20level%20indicator)
 - 1x button [here]()
 - 1x jumper [here](https://www.robotics.org.za/CCC01505C-20?search=jumper)
 - 4x 2 pin screw terminals [here](https://www.robotics.org.za/KF120-2P-254)
