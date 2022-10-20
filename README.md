@@ -16,7 +16,9 @@ A repository containing all my IOT Projects
 |8.|Diy mini ups files|*[Diy mini ups Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/8.%20DIY_mini_ups)*|
 |9.|WiFi firework igniter files|*[WiFi firework igniter Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/9.%20WiFi_firework_igniter)*|
 |10.|WiFi power meter and logger files|*[WiFi power meter and logger Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/10.%20WiFi_power_meter_and_logger)*|
-
+|11.|DIY ESP8266 12F programmer files|*[DIY ESP8266 12F programmer Link](NULL)*|
+|12.|DIY MT3608 boost converter files|*[DIY MT3608 boost converter Link](NULL)*|
+|13.|ESP8266 3.3v hardware watchdog files|*[ESP8266 3.3v hardware watchdog Link](NULL)*|
 
 |0.|NULL files|*[NULL Link](NULL)*|
 
