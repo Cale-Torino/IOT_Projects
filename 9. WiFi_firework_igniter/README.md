@@ -2,11 +2,13 @@
 
 Link to my article on my tutorial website [here](https://tutorials.techrad.co.za/2022/10/01/diy-battery-wifi-4ch-relay-pcb).
 
-Creating A wifi fireworks igniter with a backup LiPo battery.
+Creating a WiFi fireworks igniter with a backup LiPo battery.
 
-With December just around the corner I wanted to design a remote fireworks igniter working on wifi and battery power.
+With December just around the corner I wanted to design a remote fireworks igniter working on WiFi and battery power.
 
 The board will use mosfets as switches to nichrome wire which will heat up and ignite fireworks from a safe distance.
+
+The idea is to have the system self contained with the ability of remote control via a WiFi AP using an ESP8266 12F
 
 Required components:
 
