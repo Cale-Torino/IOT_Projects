@@ -12,6 +12,8 @@ On this PCB I used 3x 4.7k and 2x 470 Ohm resistors and they work fine for this 
 
 Usally I will use 4x 100K and 1x 10K on my PCBs using LiPo chargers
 
+https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code
+
 [<img src="img/7.jpeg" width="500"/>](img/7.jpeg)
 
 required components:
