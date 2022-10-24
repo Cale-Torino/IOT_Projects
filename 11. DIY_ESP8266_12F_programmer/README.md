@@ -1,5 +1,7 @@
 # DIY ESP8266 12F Programmer
 
+[<img src="img/ESP8266_12F_programmer.jpg" width="500"/>](imgESP8266_12F_programmer.jpg)
+
 [<img src="img/8.jpeg" width="500"/>](img/8.jpeg)
 
 Link to my article on my tutorial website [here]().
