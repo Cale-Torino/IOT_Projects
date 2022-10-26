@@ -35,9 +35,6 @@ Required components:
 
 Rough total for 1: R191.038
 
-also get:
-- PNP transisters bc557
-
 ---
 
 MT3608 3.3v regulator
