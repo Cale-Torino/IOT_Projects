@@ -13,9 +13,9 @@ links
 - ["Dying Gasp" from a Circuit Standpoint](https://www.mathscinotes.com/2011/02/dying-gasp-from-a-circuit-standpoint/)
 - [Battery powered auto backup circuit](https://www.gadgetronicx.com/battery-auto-backup-circuit-dc/)
 
-Old component list:
-- 18650 battery holder
-- 18650 battery
-- Li-ion charger DC step up
+Component list:
+- 1x supercap
+- 1x cap 100uf
+- 3x 1n4007 diode
+- 1x 5v relay
 - PCB
-- Output barrel jack male + 2 core stranded wire
