@@ -1,5 +1,7 @@
 # DIY battery powered WiFi remote fireworks igniter
 
+[<img src="img/IMG_1648.JPG" width="500"/>](img/IMG_1648.JPG)
+
 Link to my article on my tutorial website [here](https://tutorials.techrad.co.za/2022/10/01/diy-battery-wifi-4ch-relay-pcb).
 
 Creating a WiFi fireworks igniter with a backup LiPo battery.
