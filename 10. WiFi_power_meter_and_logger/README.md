@@ -10,7 +10,7 @@ Device must use `Wi-Fi station` or `Wi-Fi Access Point`.
 
 Rather use station mode to connect to device via wifi from further distances.
 
-Removed programming components since the esp8366 can be plugged in via headers
+Removed programming components since the esp8366 can be plugged in via headers.
 
 required components:
 
