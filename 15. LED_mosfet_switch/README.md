@@ -1,5 +1,6 @@
 # LED mosfet switch
 
+https://electronics.stackexchange.com/questions/595807/what-value-of-capacitor-should-i-use-with-this-mp2307-buck-regulator
 
 links
 - []()
