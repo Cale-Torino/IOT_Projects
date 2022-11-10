@@ -1,5 +1,7 @@
 # ESP8266 min config pcb
 
+Minimalistic form for the ESP8266 12F.
+
 Component list:
 - 1x 100nf ceramic cap
 - 4x 100k resistors
