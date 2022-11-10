@@ -12,7 +12,6 @@ Component list:
 - 1x pushbutton (reset)
 - 1x switch (programming or running mode)
 
-https://www.communica.co.za/products/1-5ke-18ca
 
 links
 - []()
