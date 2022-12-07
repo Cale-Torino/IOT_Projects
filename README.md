@@ -22,9 +22,9 @@ A repository containing all my IOT Projects
 |14.|Simple_dying_gasp_circuit files|*[Simple dying gasp circuit Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/14.%20Simple_dying_gasp_circuit)*|
 |15.|LED_mosfet_switch files|*[LED mosfet switch Link](NULL)*|
 |16.|D5_EVO_repair files|*[D5 EVO repair Link](NULL)*|
-|17.|ESP8266_min_config files|*[NULL Link](NULL)*|
-|18.|ESP8266_breakout_board files|*[NULL Link](NULL)*|
-|19.|IP5306 power managment SoC files|*[NULL Link](NULL)*|
+|17.|ESP8266_min_config files|*[ESP8266 min config Link](NULL)*|
+|18.|ESP8266_breakout_board files|*[ESP8266 breakout board Link](NULL)*|
+|19.|IP5306_power_managment_SoC files|*[IP5306 power managment SoC Link](NULL)*|
 
 |0.|NULL files|*[NULL Link](NULL)*|
 
