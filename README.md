@@ -19,9 +19,9 @@ A repository containing all my IOT Projects
 |11.|DIY ESP8266 12F programmer files|*[DIY ESP8266 12F programmer Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/11.%20DIY_ESP8266_12F_programmer)*|
 |12.|DIY MT3608 boost converter files|*[DIY MT3608 boost converter Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/12.%20DIY_MT3608_boost_converter)*|
 |13.|ESP8266 3.3v hardware watchdog files|*[ESP8266 3.3v hardware watchdog Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/13.%20ESP8266_3.3v_hardware_watchdog)*|
-|14.|Simple_dying_gasp_circuit files|*[NULL Link](NULL)*|
-|15.|LED_mosfet_switch files|*[NULL Link](NULL)*|
-|16.|D5_EVO_repair files|*[NULL Link](NULL)*|
+|14.|Simple_dying_gasp_circuit files|*[Simple dying gasp circuit Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/14.%20Simple_dying_gasp_circuit)*|
+|15.|LED_mosfet_switch files|*[LED mosfet switch Link](NULL)*|
+|16.|D5_EVO_repair files|*[D5 EVO repair Link](NULL)*|
 |17.|ESP8266_min_config files|*[NULL Link](NULL)*|
 |18.|ESP8266_breakout_board files|*[NULL Link](NULL)*|
 |19.|IP5306 power managment SoC files|*[NULL Link](NULL)*|
