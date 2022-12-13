@@ -27,4 +27,5 @@ A repository containing all my IOT Projects
 |19.|IP5306 power managment SoC files|*[IP5306 power managment SoC Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/19.%20IP5306_power_managment_SoC)*|
 
 |0.|NULL files|*[NULL Link](NULL)*|
+|0.|NULL files|*[NULL Link](NULL)*|
 
