@@ -2,7 +2,9 @@
 
 A simple PCB using the sonoff P04 Esp8266 modual to switch mosfets for my workshop.
 
-The unit has an auto backup battery switching circuit and uses 12v from mains and battery.
+The unit has an auto backup battery switching circuit and uses 12v from mains and battery and also has WiFi capability.
+
+Buttons can be connected via Lan cable to another button PCB wich can be placed under desks or behind cupboards or in other confidential places.
 
 Mosfets used can handel up to 10A of current and I have applied a heatsink to the LED Fet which could draw up to 7.5A.
 
