@@ -17,7 +17,7 @@ Component list:
 
 
 links
-- []()
+- [RE5V1C Siren Trigger](https://tutorials.techrad.co.za/2022/12/29/re5v1c-siren-trigger/)
 - []()
 - []()
 - []()
