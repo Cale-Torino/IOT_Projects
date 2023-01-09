@@ -26,13 +26,16 @@ Component list:
     - 1x 1k
 - LED switches
     - 4x Fets
+    - 4x NPN
     - 4x PNP
-    - 4x 560 ohm
+    - 8x 560 ohm
     - 4x 680 ohm
     - 4x 10k
     - 4x zener
 - Microcontroller
-    - 1x esp 8266
+    - 1x ESP8266 (PSB-04 Sonoff)
+- DC/DC step down
+    - 1x LM2596 Mini Buck Regulator
 - Auto switch between mains 12v and battery 12v
     - 1x 12v relay
     - 1x 1k
@@ -44,4 +47,5 @@ Component list:
 # Links
 
 - [Cap for mp2307](https://electronics.stackexchange.com/questions/595807/what-value-of-capacitor-should-i-use-with-this-mp2307-buck-regulator)
+- [LM2596](https://www.robotics.org.za/LM2596-MINI?search=step%20down)
 - []()
