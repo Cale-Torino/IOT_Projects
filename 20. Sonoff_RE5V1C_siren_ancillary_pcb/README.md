@@ -25,4 +25,5 @@ Component list:
 
 links
 - [RE5V1C Siren Trigger](https://tutorials.techrad.co.za/2022/12/29/re5v1c-siren-trigger)
-- []()
+- [LM2596S DC/DC](https://www.communica.co.za/products/hkd-adj-dc-dc-module-3a-1-5-35v)
+-[SONOFF 1 CH WIFI RE5V1C](https://www.communica.co.za/products/sonoff-1-ch-wifi-w-l-5v-relay)
