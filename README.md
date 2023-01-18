@@ -25,6 +25,8 @@ A repository containing all my IOT Projects
 |17.|ESP8266 min config files|*[ESP8266 min config Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/17.%20ESP8266_min_config)*|
 |18.|ESP8266 breakout board files|*[ESP8266 breakout board Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/18.%20ESP8266_breakout_board)*|
 |19.|IP5306 power managment SoC files|*[IP5306 power managment SoC Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/19.%20IP5306_power_managment_SoC)*|
+|20.|Sonoff RE5V1C siren ancillary pcb files|*[Sonoff RE5V1C siren ancillary pcb Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/20.%20Sonoff_RE5V1C_siren_ancillary_pcb)*|
+|21.|XC3804 wifi relay module files|*[XC3804 wifi relay module Link](https://github.com/Cale-Torino/IOT_Projects/tree/main/21.%20XC3804_wifi_relay_module)*|
 
 |0.|NULL files|*[NULL Link](NULL)*|
 
