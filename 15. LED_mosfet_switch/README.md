@@ -48,4 +48,5 @@ Component list:
 
 - [Cap for mp2307](https://electronics.stackexchange.com/questions/595807/what-value-of-capacitor-should-i-use-with-this-mp2307-buck-regulator)
 - [LM2596](https://www.robotics.org.za/LM2596-MINI?search=step%20down)
+- [NT72C-S10](https://componentsearchengine.com/part-view/NT72C-S10/NINGBO%20HUAGUAN%20ELECTRONICS)
 - []()
