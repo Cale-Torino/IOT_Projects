@@ -1,5 +1,7 @@
 # LED mosfet switch
 
+[<img src="img/IMG_2530.JPG" width="500"/>](img/IMG_2530.JPG)
+
 A simple PCB using the sonoff P04 Esp8266 modual to switch mosfets for my workshop.
 
 The unit has an auto backup battery switching circuit and uses 12v from mains and battery and also has WiFi capability.
