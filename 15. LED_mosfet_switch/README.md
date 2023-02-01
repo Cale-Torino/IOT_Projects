@@ -12,6 +12,11 @@ Mosfets used can handel up to 10A of current and I have applied a heatsink to th
 
 The other 3 Fets are for: remote alarm siren, remote operation of 1 security gate and remote fog pepper spray.
 
+# versions
+
+BT138 for AC LED switching
+
+IRL520N for DC LED switching
 
 
 # Index
@@ -51,4 +56,6 @@ Component list:
 - [Cap for mp2307](https://electronics.stackexchange.com/questions/595807/what-value-of-capacitor-should-i-use-with-this-mp2307-buck-regulator)
 - [LM2596](https://www.robotics.org.za/LM2596-MINI?search=step%20down)
 - [NT72C-S10](https://componentsearchengine.com/part-view/NT72C-S10/NINGBO%20HUAGUAN%20ELECTRONICS)
+- [Triac BT138-TO220 12A 600V](https://www.robotics.org.za/BT138-600E)
+- [MOSFET IRL520N, N-TYPE, 9.8A, 100V](https://www.robotics.org.za/IRL520N-TO-220)
 - []()
