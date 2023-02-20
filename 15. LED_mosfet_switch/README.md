@@ -29,15 +29,14 @@ Component list:
     - 4x buttons
     - 4x 1k
 - LED    
-    - 1x LED
+    - 1x LED orange
     - 1x 1k
+    - 1x LED red
 - LED switches
     - 4x Fets
-    - 4x NPN
-    - 4x PNP
-    - 8x 560 ohm
-    - 4x 680 ohm
-    - 4x 10k
+    - 8x NPN
+    - 8x 10k 1/4 watt
+    - 8x 10k 1/8 watt
     - 4x zener
 - Microcontroller
     - 1x ESP8266 (PSB-04 Sonoff)
