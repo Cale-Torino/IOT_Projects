@@ -33,8 +33,8 @@ Component list:
     - 1x 1k
     - 1x LED red
 - LED switches
-    - 4x Fets
-    - 8x NPN
+    - 4x Fets (1x IRLZ44N; 3x IRL520N)
+    - 8x NPN (8x BC547)
     - 8x 10k 1/4 watt
     - 8x 10k 1/8 watt
     - 4x zener
