@@ -8,7 +8,7 @@ The unit has an auto backup battery switching circuit and uses 12v from mains an
 
 Buttons can be connected via Lan cable to another button PCB wich can be placed under desks or behind cupboards or in other confidential places.
 
-Mosfets used can handel up to 10A of current and I have applied a heatsink to the LED Fet which could draw up to 7.5A.
+3 IRL520N mosfets used can handel up to 10A of current and I have applied a heatsink to the LED Fet (IRLZ44N) which could draw up to 7.5A.
 
 The other 3 Fets are for: remote alarm siren, remote operation of 1 security gate and remote fog pepper spray.
 
@@ -57,4 +57,5 @@ Component list:
 - [NT72C-S10](https://componentsearchengine.com/part-view/NT72C-S10/NINGBO%20HUAGUAN%20ELECTRONICS)
 - [Triac BT138-TO220 12A 600V](https://www.robotics.org.za/BT138-600E)
 - [MOSFET IRL520N, N-TYPE, 9.8A, 100V](https://www.robotics.org.za/IRL520N-TO-220)
+- [MOSFET IRLZ44NPBF, N-TYPE, 41A, 55V](https://www.mantech.co.za/ProductInfo.aspx?Item=35M4049)
 - []()
