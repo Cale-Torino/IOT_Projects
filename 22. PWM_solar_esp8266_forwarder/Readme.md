@@ -10,6 +10,7 @@ Component list:
 - 1x PWM solar device
 - 1x ESP8266
 
+[<img src="img/IMG_3664.PNG" width="500"/>](img/IMG_3664.PNG)
 
 links
 - [data](data)
