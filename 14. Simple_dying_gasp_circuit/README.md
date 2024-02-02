@@ -8,14 +8,14 @@ There are dedicated IC's for this however in my case they are not commonly avail
 
 Also if a supercapacitor that is normally charged by the system when it is running is connected it to a normally closed pole of a relay and mains power is lost the relay de-energizes then closes that pole, once that happens the system continues to run from the supercapacitor as a means of battery backup.
 
-links
-- [Dying Gasp Circuit Design on PCBA Level](https://medium.com/a-hardware-engineers-job-record/dying-gasp-circuit-design-on-pcba-level-27c6f9ecaead)
-- ["Dying Gasp" from a Circuit Standpoint](https://www.mathscinotes.com/2011/02/dying-gasp-from-a-circuit-standpoint/)
-- [Battery powered auto backup circuit](https://www.gadgetronicx.com/battery-auto-backup-circuit-dc/)
-
 Component list:
 - 1x supercap
 - 1x cap 100uf
 - 3x 1n4007 diode
 - 1x 5v relay
 - PCB
+
+links
+- [Dying Gasp Circuit Design on PCBA Level](https://medium.com/a-hardware-engineers-job-record/dying-gasp-circuit-design-on-pcba-level-27c6f9ecaead)
+- ["Dying Gasp" from a Circuit Standpoint](https://www.mathscinotes.com/2011/02/dying-gasp-from-a-circuit-standpoint/)
+- [Battery powered auto backup circuit](https://www.gadgetronicx.com/battery-auto-backup-circuit-dc/)
